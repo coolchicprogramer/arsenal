@@ -1,0 +1,2 @@
+Mac:DIPSW 5 ON
+WIn:DIPSW 5 OFF
