@@ -1,0 +1,12 @@
+    "vim.visualstar": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "0",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\bin\\switch-im.exe",
+    "vim.autoSwitchInputMethod.switchIMCmd": "C:\\bin\\switch-im.exe {im}"
