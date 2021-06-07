@@ -10,3 +10,14 @@
     "vim.autoSwitchInputMethod.defaultIM": "0",
     "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\bin\\switch-im.exe",
     "vim.autoSwitchInputMethod.switchIMCmd": "C:\\bin\\switch-im.exe {im}"
+
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["H"],
+            "after": ["^" ]
+        },
+        {
+            "before": ["L"],
+            "after": ["$" ]
+        },
+    ],
