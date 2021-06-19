@@ -20,4 +20,10 @@
             "before": ["L"],
             "after": ["$" ]
         },
+        {
+            "before": ["leader", "w"],
+            "commands": [
+                "workbench.action.files.save",
+            ]
+        }
     ],
