@@ -25,5 +25,11 @@
             "commands": [
                 "workbench.action.files.save",
             ]
+        },
+        {
+            "before": ["leader", "o"],
+            "commands": [
+                "workbench.action.quickOpen",
+            ]
         }
     ],
