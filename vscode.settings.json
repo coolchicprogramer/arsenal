@@ -12,6 +12,11 @@
     "vim.autoSwitchInputMethod.switchIMCmd": "C:\\bin\\switch-im.exe {im}"
 
     "vim.normalModeKeyBindings": [
+        // easy mothion
+        {
+            "before": ["s"],
+            "after" : ["<Leader>","<Leader>","2","s"]
+        },
         {
             "before": ["H"],
             "after": ["^" ]
