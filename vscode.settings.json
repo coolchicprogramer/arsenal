@@ -29,6 +29,12 @@
         }
       ],
     "vim.normalModeKeyBindings": [
+        {
+            "before": [":"],
+            "commands": [
+                "workbench.action.showCommands",
+            ]
+        },
         // easy mothion
         {
             "before": ["s"],
