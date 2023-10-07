@@ -38,6 +38,12 @@
             "after": [
                 "v"
             ]
+        },
+        {
+            "before": ["/"],
+            "commands": [
+                "actions.find",
+            ]
         }
       ],
     "vim.normalModeKeyBindings": [
@@ -74,6 +80,10 @@
         }
     ],
    "vim.visualModeKeyBindings": [
+        {
+            "before": ["v"],
+            "after" : ["a","f"]
+        },
         {
             "before": [
                 ">"
